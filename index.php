@@ -9,7 +9,7 @@ $simple = start::getObject();
 //设置调试模式(true:打开;false:关闭;)
 $simple->debug(true);
 
-//创建应用模块
+//创建应用模块123
 $simple->createModule('home');
 
 //运行框架并设置默认启动的(模块、控制器、方法)

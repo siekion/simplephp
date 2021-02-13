@@ -9,7 +9,7 @@ $simple = start::getObject();
 //设置调试模式(true:打开;false:关闭;)
 $simple->debug(true);
 
-//哈哈
+//哈哈666
 
 //创建应用模块
 $simple->createModule('home');

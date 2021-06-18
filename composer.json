@@ -1,0 +1,42 @@
+{
+  "name": "siekion/simplephp",
+  "description": "Simple PHP framework",
+  "type": "project",
+  "keywords": [
+    "simple",
+    "simplePHP"
+  ],
+  "homepage": "http://www.simplephp.cn",
+  "time": "2021-02-14",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "siekion",
+      "email": "siekion@outlook.com",
+      "homepage": "http://www.simplephp.cn",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "ext-json": "*",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "files": [
+      "simple/Function/function.php"
+    ],
+    "psr-4": {
+      "App\\": "app/",
+      "Simple\\": "simple/"
+    },
+    "classmap": [
+    ]
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  }
+}
